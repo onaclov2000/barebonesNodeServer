@@ -16,6 +16,10 @@ console.log(req.body);
 
 res.send("ok");
 });
- 
+app.get('/BLAH', function(req, res){
+console.log(req.body);
+
+res.send("ok");
+});
 app.listen(3000);
 console.log('listening to http://localhost:3000'); 
